@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8fafc; /* Light gray */
+}
+
+textarea::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.gradient-text {
+  background: linear-gradient(
+    74deg,
+    #4c6ef5 0%,
+    #5f72eb 9%,
+    #6c79e9 20%,
+    #816cf4 44%,
+    #9c67f6 56%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
